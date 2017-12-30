@@ -34,10 +34,10 @@
 			<view class="mt10">
 			订单时间：{{orderData.addtime}}
 			</view>  
-			<view >
+			<view wx:if="{{orderData.kuaidi_num}}">
 			快递单号：{{orderData.kuaidi_num}}
 			</view>
-			<view class="mt10">
+			<view  wx:if="{{orderData.kuaidi_name}}" class="mt10">
 			快递公司：{{orderData.kuaidi_name}}
 			</view>       
 		</view>

@@ -57,6 +57,11 @@
   padding: 5% 5% 0 5%;
   font-weight: 700
 }
+.pair_title {
+  font-size:26rpx;
+  margin-left:33rpx;
+  color:gray;
+}
 .gmxx{
   padding:1% 5% 5% 5%;
   line-height: 25px;
@@ -65,6 +70,12 @@
   font-size: 15px;
   color: #dd2727;
   padding-top: 10px;
+}
+.gmxx .yuanjia{
+  font-size: 12px;
+  color: #666;
+  padding-top: 10px;
+  text-decoration:line-through;
 }
 .icon_kf{
   width: 20px;

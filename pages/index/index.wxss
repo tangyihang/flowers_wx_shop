@@ -98,7 +98,7 @@ margin-left:18rpx;
   color: #333;
   line-height: 20px;
   margin: 0;
-  height: 40px;
+  height: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -107,7 +107,17 @@ margin-left:18rpx;
   padding: 1% 5% 0 5%;
 
 }
-
+.cont .pair_title{
+  font-size: 29rpx;
+  color:gray;
+  height: 20px;
+  overflow:hidden;
+  margin-left: 6px;
+  text-overflow:ellipsis;
+display:-webkit-box;
+-webkit-line-clamp:1;
+-webkit-box-orient:vertical;
+}
 .cont .tit {
   /*height: 80rpx;*/
   font-size: 12px;

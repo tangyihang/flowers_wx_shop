@@ -199,7 +199,7 @@ getMore:function(e){
   },
   onShareAppMessage: function () {
     return {
-      title: '宠物美容学校',
+      title: '鄱阳花店送花上门',
       path: '/pages/index/index',
       success: function(res) {
         // 分享成功

@@ -13,8 +13,11 @@
     </block>
   </swiper>
   <view class="title">{{itemData.name}}</view>
+  <view class="pair_title">{{itemData.intro}}</view>
   <view class="gmxx">
-    <view><span class="jiage">¥：{{itemData.price_yh}}</span> <span class="c6 fl_r font_14" style='color:#ccc'>库存：{{itemData.num}}</span> </view>
+    <view><span class="jiage">￥{{itemData.price_yh}}</span><span class=" font_12 c6">  元/{{itemData.company}} </span>  
+    </view>
+    <view class="font_14 c6">原价：<span class="yuanjia">¥{{itemData.price}}</span></view>
     <view class="font_14 c6">品牌：{{itemData.brand}}</view>
     
     <view class="font_14 c6">支付：微信支付</view>

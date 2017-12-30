@@ -4,7 +4,7 @@ Page({
     current: 0,
     shopList: [],
     ptype:'',
-    title:'宠物美容学校',
+    title:'鄱阳花店送花上门',
     page:2,
     catId:0,
     brandId: 0
